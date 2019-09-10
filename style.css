@@ -62,10 +62,19 @@ div.content {
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .sidebar a {
       text-align: center;
       float: none;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin: 0%;
+    }
+    a{
+        display: block;
     }
 }
 footer{
@@ -77,5 +86,38 @@ footer{
     background-color: green;
     color: white;
     text-align: center;
+}
+li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: monospace;
+}
+a:hover{
+    color: white;
+}
+nav{
+    width:100vw;
+    background-color: green;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+button{
+    display: block;
+    padding: 20px;
+    font-size: 3px;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    }
 }
   
