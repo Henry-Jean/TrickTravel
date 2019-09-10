@@ -1,0 +1,20 @@
+nav {
+    color:blueviolet;
+}
+table {
+    border-collapse: collapse; 
+    vertical-align: middle;
+    color: black;
+}
+tr {
+    background-color:red;
+}
+td {
+    border: 1px solid black;
+    vertical-align: middle;
+    background-color: rgb(235, 217, 193);
+}
+
+body {
+    background-color: rgb(180, 207, 219);
+} 
