@@ -1,0 +1,25 @@
+header{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+}
+#t01{
+    width: 100%;
+}
+table, th, td{
+    border: 2px solid chocolate;
+    border-collapse: collapse;
+}
+.p{
+    color: brown;
+    }
+ a{
+     color: brown;
+     padding: 50px;
+ }
+a:hover{
+    color: green;
+}
