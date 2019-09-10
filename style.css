@@ -1,13 +1,8 @@
-h1.bleu{
-    color:goldenrod
+p{
+    text-indent: 2em;
 }
-.toto .hello .world{
-    background-color: black
-    color: indigo
-}
-.toto{
-
-}
-.toto .hello{
-    
+h1{
+    text-align: center;
+    border: 1px;
+    background-color: blue;
 }
