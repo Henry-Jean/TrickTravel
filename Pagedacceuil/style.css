@@ -40,7 +40,7 @@ IMG:hover{
     margin: 0;
     padding: 0;
     width: 300px;
-    background-color: white;
+    background-color: rgb(143, 194, 143);
     position: relative;
     height: 100%;
     overflow: auto;
