@@ -1,0 +1,144 @@
+body {
+    padding-left: 20px;
+    background-color: grey;
+
+}
+p{
+    border: solid 2px  green;
+    text-indent: 2em;
+    padding-left: 10px;
+    padding: 5px;
+    font-style: italic;
+}
+article{
+    display: inline-block;
+}
+header{
+    border: solid  2px;
+    background-color:green;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: black; 
+}
+img{
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 12px; 
+    margin: 5px;
+    padding: 5px;    
+    text-align: center;
+    position: relative;
+}
+IMG:hover{
+    filter: brightness(60%);
+}
+.sidebar {
+    margin: 20px;
+    padding: 0;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+div.content {
+    margin-right: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+@media screen and (max-width: 500px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        padding-left: 20px;
+    }
+    a{
+        display: block;
+    }
+}
+footer{
+    position: relative;
+    background-color: grey;
+    bottom: 10px;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin: 14px;
+    padding: 5px;
+    font-size: 2em;
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-family: monospace;
+}
+a:hover{
+    background-color:grey;
+}
+nav{
+    width:1868px;
+    background-color: green;
+    border-right: solid 2px black;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.label {
+    margin-left: 20px;
+    padding-left: 5mm;
+}
+.name {
+background-color: black;
+}
+table {
+    background-color: rgb(211, 135, 73);
+    margin-left: 1px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+td {
+    border: solid 2px black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    border: solid 2px black;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
