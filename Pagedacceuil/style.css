@@ -1,5 +1,8 @@
 p{
     text-indent: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 article{
     display: inline-block;
@@ -150,5 +153,6 @@ a:hover{
 body{
     background-color: rgb(187, 182, 182);
 }
+
 
   
