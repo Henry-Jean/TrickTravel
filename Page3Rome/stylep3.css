@@ -131,3 +131,14 @@ button{
 .name {
 background-color: black;
 }
+table {
+    border-collapse: collapse;
+    vertical-align: middle;
+    color: black;
+}
+tr {
+    background-color: bisque
+}
+td {
+    border: 1px solid black;
+}
