@@ -43,6 +43,7 @@ IMG:hover{
     color: black;
     padding: 16px;
     text-decoration: none;
+    position: relative;
 }
 .sidebar a.active {
     background-color: green;
@@ -90,7 +91,7 @@ footer{
 li{
     list-style-type: none;
     margin: 0 2vw;
-    font-size: 5vh;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -105,39 +106,64 @@ a:hover{
     display: flex;
     justify-content: space-between;
 
-}
-.icon-bar a:hover {
-    
-}
-  
-  .facebook {
+}  
+.facebook {
     background: #3B5998;
     color: white;
     padding: 20px;
 }
   
-  .twitter {
+.twitter {
     background: #55ACEE;
     color: white;
     padding: 20px;
 }
   
-  .google {
+.google {
     background: #dd4b39;
     color: white;
     padding: 20px;
 }
   
-  .linkedin {
+.linkedin {
     background: #007bb5;
     color: white;
     padding: 20px;
 }
   
-  .youtube {
+.youtube {
     background: #bb0000;
     color: white;
     padding: 20px;
+}
+#menu-vertical, #menu-vertical ul, #menu-vertical ul:hover {
+    padding:0;
+    margin:0;
+    list-style:none;
+    width: 20px; 
+}
+#menu-vertical li {
+    display: inline-block;
+    position: relative;
+    background:#EFEFEF; 
+}
+#menu-vertical a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color:black;
+}
+#menu-vertical ul {
+    position: absolute;
+    left: -999em;
+}
+#menu-vertical ul:hover {
+    position: relative;
+}
+#menu-vertical li:hover ul {
+    display: block;
+    top: 20%;
+    left: 20px;
 }
 
   
