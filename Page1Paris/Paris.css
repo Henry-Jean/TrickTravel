@@ -1,31 +1,40 @@
 header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: lightgoldenrodyellow;
-   
+   height: 300px;
 }
 .logo{
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height:150px;
-   padding-right: 35px;
 
 }
-
-h1{
-    font-size: 50px;
+.logo a{
+    position: absolute;
+    left: 0;
 }
 
 
 .formulaire{
-    width: 150px 350px;
+    width: 150px ;
     padding: 15px;
+
 
 }
 .image{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #t01{
     width: 100%;
+    text-align: center;
 }
 table, th, td{
     border: 2px solid chocolate;
@@ -33,16 +42,28 @@ table, th, td{
 }
 .p{
     color: brown;
+    font-size: 25px
     }
+nav{
+        text-align: center;
+        font-size: 25px;
+    }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
  a{
      color: brown;
      width: 200px;
      padding: 50px;
+
      
  }
 a:hover{
     color: green;
 }
+
 body{
 
 }
