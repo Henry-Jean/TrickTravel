@@ -7,16 +7,23 @@ article{
 header{
     border: 1px;
     background-color: green;
-    height: 280px;
+    height: 200px;
 }
 h1{
     display: flex;
     flex-direction: row;
+    justify-content: initial;
+    align-content: flex-start;
+}
+.entete{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 #logo{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 0%;
     margin-bottom: 0%;
 }
 IMG{
@@ -37,6 +44,7 @@ IMG:hover{
     position: relative;
     height: 100%;
     overflow: auto;
+    border: solid black 2px;
 }
 .sidebar a {
     display: block;
@@ -53,6 +61,9 @@ div.content {
     margin-right: 200px;
     padding: 1px 16px;
     height: 1000px;
+}
+.home{
+    background-color: green;
 }
 @media screen and (max-width: 700px) {
     .sidebar {
@@ -83,7 +94,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: green;
     color: white;
     text-align: center;
@@ -101,7 +112,6 @@ a{
 }
 a:hover{
     color: white;
-    background-color: green;
 }
 .navbar{
     display: flex;
@@ -136,6 +146,9 @@ a:hover{
     background: #bb0000;
     color: white;
     padding: 20px;    float: none;
+}
+body{
+    background-color: rgb(187, 182, 182);
 }
 
   
