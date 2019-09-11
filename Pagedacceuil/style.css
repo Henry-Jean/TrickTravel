@@ -136,34 +136,5 @@ a:hover{
     color: white;
     padding: 20px;    float: none;
 }
-#menu-vertical, #m    float: none;l ul, #menu-vertical ul:hover {
-    padding:0;
-    margin:0;
-    list-style:non    float: none;
-    width: 20px; 
-}
-#menu-vertical li     float: none;
-    display: inline-block;
-    position: relative;
-    background:#EFEFEF; 
-}
-#menu-vertical a {
-    display: block;
-    position: relative;
-    text-decoration: none;
-    color:black;
-}
-#menu-vertical ul {
-    position: absolute;
-    left: -999em;
-}
-#menu-vertical ul:hover {
-    position: relative;
-}
-#menu-vertical li:hover ul {
-    display: block;
-    top: 20%;
-    left: 20px;
-}
 
   
