@@ -47,7 +47,7 @@ IMG:hover{
 }
 .sidebar a.active {
     background-color: green;
-    color: white;
+    color: white;<form action="formulaire.html" method="POST">
 }
 div.content {
     margin-right: 200px;
@@ -134,15 +134,15 @@ a:hover{
 .youtube {
     background: #bb0000;
     color: white;
-    padding: 20px;
+    padding: 20px;    float: none;
 }
-#menu-vertical, #menu-vertical ul, #menu-vertical ul:hover {
+#menu-vertical, #m    float: none;l ul, #menu-vertical ul:hover {
     padding:0;
     margin:0;
-    list-style:none;
+    list-style:non    float: none;
     width: 20px; 
 }
-#menu-vertical li {
+#menu-vertical li     float: none;
     display: inline-block;
     position: relative;
     background:#EFEFEF; 
