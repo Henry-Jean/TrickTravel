@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TrickTravel</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>        
@@ -13,14 +14,25 @@
         <img src="../IMAGES/logo.png" alt="logo" title="logo" width="150px" height="auto">
         </a>
         <div><h1>TrickTravel</h1></div>
-        <div class="nav">
-            <a href="../Page2Londres/Page2londres.html">Henry-Jean</a>
-            <a href="../Page1Paris/Paris.html">Marie</a>
-            <a href="Pagedaccueililham.html">Ilham</a>
-        </div>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand"></a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
     </header>
     <div class="sidebar">
-        <a class="active" href="Pagedaccueililham.html">Home</a>
+        <ul id="menu-vertical">
+            <li><a href="#"><b>Home</b></a>
+                <ul>
+                    <li><a href="../Page1Paris/Paris.html">Paris</a></li>
+                    <li><a href="../Page2Londres/Page2londres.html">Londres</a></li>
+                    <li><a href="../Page3Rome/Page3rome.html">Rome</a></li>
+                    <li><a href="../Page4Istanbul/Page4istanbul.html">Istanbul</a></li>
+                </ul>
+            </li>
+        </ul>
         <a href="https://www.mer-et-voyages.info/nouveautes-croisieres">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
@@ -78,7 +90,7 @@
     </article>
     <br>
     <div>
-        <a href="../Page1Paris/Page1paris.html">
+        <a href="../Page1Paris/Paris.html">
         <img src="../IMAGES/PARIS.jpg" alt="paris" title="Paris" width="500px" height="auto">
         </a>
     
@@ -98,6 +110,13 @@
     <a href="https://www.kayak.fr/">Kayak</a>
     <a href="https://www.routard.com/">Routard</a>
     <a href="https://www.jetcost.com/">Jetcost</a>
+    <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
 </footer>
 </body>
 </html>
