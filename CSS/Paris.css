@@ -23,6 +23,7 @@ h1{
     justify-content: center;
     align-content: center;
     color: black; 
+    font-size: 50px;
 }
 img{
     display: inline-block;
@@ -32,8 +33,8 @@ img{
     padding: 5px;    
     text-align: center;
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
 
 }
 img:hover{
@@ -70,43 +71,39 @@ div.content {
     div.content {margin-left: 0;}
 }
 @media screen and (max-width: 500px) {
-    .sidebar a {
+sidebar a {
       text-align: center;
       float: none;
-    }
-    ul{
-        flex-direction: column;
-    }
-    li{
-        padding-left: 20px;
-    }
-    a{
-        display: block;
-    }
+}
+ul{
+     flex-direction: column;
+ }
+li{
+     padding-left: 20px;
+}
+a{
+     display: block;
+ }
 }
 footer{
     position: relative;
     background-color: #DC143C;
     bottom: 10px;
-    width: 100%;
     height: 150px
-    color: white;
     text-align: center;
 }
 .li{
+    
     list-style-type: none;
-    
-    
-    +
-}
-a{
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px;
+    font-size: 25px; 
     color: black;
-    font-family: monospace;
 }
-a:hover{
+li a{
+    padding: 5px;
+    color: black;
+       
+}
+li a:hover{
     background-color:grey;
 }
 nav{
