@@ -57,11 +57,6 @@ IMG{
     background-color: green;
     color: white;
 }
-div.content {
-    margin-right: 200px;
-    padding: 1px 16px;
-    height: 100px;
-}
 .home{
     background-color: green;
 }
@@ -216,19 +211,15 @@ table{
 .image img:hover + span {
 	visibility: visible;
 }
-td {
+a img{
     border: 2px solid white;
-    cursor: pointer;
-    height: 400px;
-    width: 600px;
     margin: 5px 5px 5px 5px;
-    padding: 1px 1px 1px 1px;
     position: relative;
-    overflow: hidden;
     display: inline-block;
     box-shadow: 1px 1px 3px 3px #999;
-    text-align: center;
-    color: white;
+}
+a img:hover{
+    -webkit-filter: brightness(70%);
 }
 
 
