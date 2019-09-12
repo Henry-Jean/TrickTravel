@@ -4,114 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../Page1Paris/Paris.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Paris.css">
     <title>Page 1 Paris</title>
 </head>
 
 <body>
     <header>
-
-        <div class="logo">
-            <a href="../IMAGES/logo.png" target="_blank"><img src="../IMAGES/logo.png" alt="logo" width="150px" height="auto"></a>
-            <span>TrickTravel</span>
-        </div> 
-            
-           
+        <a href="https://www.dawan.fr/">
+        <img src="../TrickTravel/IMAGES/logo.png" alt="logo" title="logo" width="150px" height="auto"></a>
         
-    </header>
-
-    <div class="formulaire">
-    <form action="formulaire.html" method="post">
-            <fieldset>
-                <legend><b>Inscription</b></legend>
-            <div>
-                <label for="male">Homme</label>
-                <input type="radio" name="genre" id="male" value="male" required>
-                <label for="female">Femme</label>
-                <input type="radio" name="genre" id="female" value="female">
-            </div>
-            <div>
-                <label for="name">Nom:</label>
-                <input type="text" id="name" name="user_name">
-            </div>
-            <br>
-            <div>
-                <label for="name">Prénom:</label>
-                <input type="text" id="name" name="user_name">
-            </div>
-            <br>
-            <div>
-                <label for="age">Age</label>
-                <select>
-                    <option>18 à 30ans</option>
-                    <option>31 à 50ans</option>
-                    <option>51 à 70ans</option>
-                    <option>+70ans</option>
-                </select>
-            </div>
-            <br>
-            <div>
-                <label for="email">Email</label>
-                <input type="text" name="name" id="email" placeholder="votre email">
-            </div>
-            <br>
-            <div>
-                <label for="password">Mot de passe</label>
-                <input type="text" name="name" id="password" placeholder="password" required>
-            </div>
-            <input type="submit" value="Envoyer">
-            </fieldset>
-        </form>
-    </div>
-        
-
-
-    <div id="main">
-    <div class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non interdum purus. Sed purus ante, sagittis non libero eu, ultricies sagittis erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec fringilla nibh. Donec est massa, euismod eget metus eu, feugiat pellentesque quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer felis justo, dapibus in nunc at, bibendum feugiat lectus.
-
-        </p>
-    </div>
-    <br>
-
-    <div class="image">
-    <img src="../IMAGES/PARIS.jpg" alt="PARIS" title="PARIS" width="1000" height="auto">
-    <img src="../IMAGES/plan-paris.jpg" alt="plan-paris" title="PARIS" width="1000" height="auto">
-    </div>
-
-    <table id="t01">
-            <caption>Bon à savoir</caption>
-            <tr>
-                <th>Ville</th>
-                <th>Langue</th>
-                <th>Devise</th>
-                <th>Quand  partir?</th>
-                <th>Hébergement</th>
-                <th>Phrases utiles</th>
-            </tr>
-            <tr>
-                <td>Paris</td>
-                <td>Français</td>
-                <td>€</td>
-                <td>De mai à septembre</td>
-                <td>Air BnB.com</td>
-                <td>Bonjour!</td>
-            </tr>
-           
-        </table>
-    </div>
-    
-
-    <footer>
+        <h1 id="header">TrickTravel</h1>
+       
         <nav>
             <ul>
-        <li><a href="https:/www.kayak.fr">kayak</a></li>
-        <li><a href="https:/www.routard.com">routard</a></li>
-        <li><a href="https:/www.jetcost.com">jetcost</a></li>
+                <li>
+                    <a href="../Pagedacceuil/Pagedaccueililham.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="../Page2Londres/Page2Londres.html">Paris</a>
+                </li>
+                <li>
+                    <a href="../Page3Rome/Page3Rome.html">Rome</a>
+                </li>
+                <li>
+                    <a href="../Page4Istanbul/Page4Istanbul.html">Istanbul</a>
+                </li>
             </ul>
         </nav>
+    </header>
+   
+    <table>
+        <tr>
+        <td>
+            <div class="sidebar">
+            <a class="active" href="../TrickTravel/Pagedaccueililham.html">Home</a>
+            <a href="https://www.mer-et-voyages.info/nouveautes-croisieres">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <form action="formulaire.html" method="post">
+                <fieldset>
+                    <legend><b>Inscription</b></legend>
+                <div>
+                    <label for="male">Homme</label>
+                    <input type="radio" name="genre" id="male" value="male" required>
+                    <label for="female">Femme</label>
+                    <input type="radio" name="genre" id="female" value="female" required>
+                </div>
+                <div>
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <br>
+                <div>
+                    <label for="name">Prénom:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <br>
+                <div>
+                    <label for="age">Age</label>
+                    <select>
+                        <option>18 à 30ans</option>
+                        <option>31 à 50ans</option>
+                        <option>51 à 70ans</option>
+                        <option>+70ans</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" name="name" id="email" placeholder="votre email">
+                </div>
+                <br>
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="texmargin: 0%t" name="name" id="password" placeholder="password" required>
+                </div>
+                <input type="submit" value="Envoyer">
+                </fieldset>
+            </form>
+        </div>
+        </td>
+        <td> <img src="../TrickTravel/IMAGES/plan-paris.jpg" alt="plandeparis"> Plan de la ville</td>
+        </tr>     
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Morbi aliquet nisi eu magna lobortis, non dignissim ex porta. 
+            Pellentesque sit amet interdum velit. Aliquam libero nunc, 
+            viverra in est non, varius convallis ante. Nulla facilisi. 
+            Etiam nec porta nulla, vestibulum ullamcorper erat. Duis nibh 
+            odio, imperdiet et nulla id, cursus efficitur est. Suspendisse 
+            viverra, nisi ut volutpat varius, mi elit lacinia sapien, at 
+            facilisis urna diam tempor lorem.</p>
+        <br>
+        <nav>
+        <br>
 
+        <ul id="menu">
+                <li><a href="#">Paris</a>
+                    <div id="contenu">
+                            <p>OH OUI!...</p>
+                    </div>  
+        </ul>
 
-    </footer>
+        <table>
+            <thead>
+                <tr>
+                    <th><img src="../TrickTravel/IMAGES/PARIS.jpg">Photo</th>
+                    <td><strong><div class="Ville">Ville</div></strong></td>
+                    <td><strong><div class="Langue">Langue</div></strong></td>
+                    <td><strong><div class="Devise">Devise</div></strong></td>
+                    <td><strong><div class="Quandpartir">Quand Partir ?</div></strong></td>
+                    <td><strong><div class="Phrasesutiles">Bonjour/Salut!</div></strong></td>
+                    <td><strong><div class="Hebergement">Hébergement</div></strong></td>
+                </tr>
+            </thead>
+                <tr>
+                    <th>        
+                    <td>Paris</td>
+                   <td>Français</td>
+                   <td>€uro</td>
+                   <td>De Juin à Septembre</td>
+                   <td>Bonjour/ Salut!</td>
+                   <td>Hotels,Airbnb, Auberges de jeunesse...</td>
+                   </th> 
+               </tr>
+       </table>
+           </nav>
+               <p id="footer">Réalisation d'Ilham, Marie et Henry-Jean</p>   
+           </div> 
+       <br>
+           <footer>
     
+               <ul>
+                    <div class="li">
+                    <li><a href="https://www.kayak.fr/">Kayak</a></li>
+                    <li><a href="https://www.routard.com/">Routard</a></li>
+                    <li><a href="https://www.jetcost.com/">Jetcost</a></li>
+                    </div>
+                </ul>
+</footer>
 </body>
 </html>
+    
