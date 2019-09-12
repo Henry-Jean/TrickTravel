@@ -142,3 +142,7 @@ th {
     padding: 5px;
     text-align: center;
 }
+.photol{
+    display: flex;
+flex-direction: row;
+}
