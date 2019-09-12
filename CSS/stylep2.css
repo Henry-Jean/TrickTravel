@@ -4,7 +4,7 @@ body {
 
 }                                      
 p{
-    border: solid 2px  green;
+    border: solid 1px  green;
     text-indent: 2em;
     padding-left: 10px;
     padding: 5px;
@@ -14,7 +14,7 @@ article{
     display: inline-block;
 }
 header{
-    border: solid  2px;
+    border: solid  1px;
     background-color:green;
 }
 h1{
@@ -27,7 +27,7 @@ h1{
 }
 img{
     display: inline-block;
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 12px; 
     margin: 5px;
     padding: 5px;    
@@ -67,7 +67,7 @@ div.content {
     .sidebar a {float: left;}
     div.content {margin-left: 0;}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .sidebar a {
       text-align: center;
       float: none;
@@ -108,9 +108,9 @@ a:hover{
     background-color:grey;
 }
 nav{
-    width:1868px;
+    width:100%;
     background-color: green;
-    border-right: solid 2px black;
+    border: solid 1px black;
 }
 ul{
     margin: 0%;
@@ -132,14 +132,18 @@ table {
     border-radius: 5px;
 }
 td {
-    border: solid 2px black;
+    border: solid 1px black;
     margin: 10px;
     padding: 5px;
     text-align: center;
 }
 th {
-    border: solid 2px black;
+    border: solid 1px black;
     margin: 5px;
     padding: 5px;
     text-align: center;
+}
+.photol{
+    display: flex;
+    flex-direction: row;
 }

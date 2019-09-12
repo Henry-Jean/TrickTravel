@@ -4,7 +4,7 @@ body {
 
 }
 p{
-    border: solid 2px rgb(219, 92, 92);
+    border: solid 1px rgb(219, 92, 92);
     text-indent: 2em;
     padding-left: 10px;
     padding: 5px;
@@ -14,7 +14,7 @@ article{
     display: inline-block;
 }
 header{
-    border: solid  2px;
+    border: solid  1px;
     background-color:rgb(219, 92, 92);
 }
 h1{
@@ -26,7 +26,7 @@ h1{
 }
 img{
     display: inline-block;
-    border: solid 2px black;
+    border: solid 1px black;
     border-radius: 12px; 
     margin: 5px;
     padding: 5px;    
@@ -107,9 +107,9 @@ a:hover{
     background-color:grey;
 }
 nav{
-    width:1868px;
+    width:100%;
     background-color:rgb(219, 92, 92);
-    border-right: solid 2px black;
+    border: solid 2px black;
 }
 ul{
     margin: 0%;
@@ -131,14 +131,18 @@ table {
     border-radius: 5px;
 }
 td {
-    border: solid 2px black;
-    margin: 10px;
+    border: solid 1px black;
+    margin: 5px;
     padding: 5px;
     text-align: center;
 }
 th {
-    border: solid 2px black;
+    border: solid 1px black;
     margin: 5px;
     padding: 5px;
     text-align: center;
+}
+.photoi {
+    display: flex;
+    flex-direction: row;
 }
