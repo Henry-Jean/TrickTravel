@@ -89,7 +89,7 @@ footer{
     position: relative;
     background-color: #DC143C;
     bottom: 10px;
-    height: 150px
+    height: 150px;
     text-align: center;
 }
 .li{
@@ -100,7 +100,7 @@ footer{
 }
 li a{
     padding: 5px;
-    color: black;
+    
        
 }
 li a:hover{
