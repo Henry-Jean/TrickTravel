@@ -9,7 +9,7 @@ article{
 header{
     border: 1px;
     background-color: green;
-    height: 230px;
+    height: 100%;
 }
 h1{
     display: flex;
@@ -38,7 +38,7 @@ IMG{
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 100%;
     background-color: rgb(143, 194, 143);
     position: relative;
     height: 100%;
@@ -67,7 +67,6 @@ IMG{
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
 }
 @media screen and (max-width: 700px) {
     .sidebar a {
@@ -89,7 +88,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 6%;
     background-color: green;
     color: white;
     text-align: center;
@@ -112,35 +111,34 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     width: 33%;
-
 }  
 .facebook {
     background: #3B5998;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
 .twitter {
     background: #55ACEE;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .google {
     background: #dd4b39;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .linkedin {
     background: #007bb5;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .youtube {
     background: #bb0000;
     color: white;
-    padding: 20px;    float: none;
+    padding: 1%; 
 }
 body{
     background-color: rgb(187, 182, 182);
@@ -173,7 +171,7 @@ table{
 #menu li li {
      max-height:0;
      overflow: hidden;
-     transition: all .5s;
+     transition: all 1s;
      border-radius:0;
      background: #444;
      box-shadow: none;
