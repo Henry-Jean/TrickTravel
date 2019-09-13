@@ -1,6 +1,6 @@
 body {
     padding-left: 20px;
-    background-color:whitesmoke;
+    background-color:red;
 
 }
 p{
@@ -45,12 +45,26 @@ IMG:hover{
     height: 100%;
     overflow: auto;
     text-align: center;
+    float: left;
 }
 .sidebar a {
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
+}
+.plan {
+    overflow: auto;
+}
+.mediasitaliens {
+    margin: 20px;
+    padding: 0;
+    width: 300px;
+    background-color: green;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    float: right;
 }
 div.content {
     margin-right: 200px;
@@ -59,7 +73,7 @@ div.content {
 }
 @media screen and (max-width: 700px) {
     .sidebar {
-      width: 100%;
+      width: auto;
       height: auto;
       position: relative;
     }
@@ -107,7 +121,7 @@ a:hover{
 }
 nav{
     width:100%;
-    background-color: green;
+    background-color: whitesmoke;
     border: solid 1px black;
 }
 ul{
@@ -122,16 +136,26 @@ ul{
 .name {
 background-color: black;
 }
-table {
+.t01 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     background-color:red;
     border: solid 1px black;
-    margin-left: 1px;
-    margin-bottom: 25px;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     border-radius: 5px;
 }
+.t02 {
+    background-color:green;
+    border: solid 1px black;
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px; 
+}
 td {
-    border: solid 1px green;
+    border: solid 1px black;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -146,5 +170,34 @@ th {
    width: 40%;
    height: 40%;
    display: flex;
-   flex-direction: row; 
+   flex-direction: row;
+   float: center; 
+}
+.facebook {
+    background: #3B5998;
+    color: white;
+    padding: 20px;
+}
+.twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 20px;
+}
+  
+.google {
+    background: #dd4b39;
+    color: white;
+    padding: 20px;
+}
+  
+.linkedin {
+    background: #007bb5;
+    color: white;
+    padding: 20px;
+}
+  
+.youtube {
+    background: #bb0000;
+    color: white;
+    padding: 20px;    float: none;
 }

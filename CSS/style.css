@@ -9,7 +9,7 @@ article{
 header{
     border: 1px;
     background-color: green;
-    height: 230px;
+    height: 100%;
 }
 h1{
     display: flex;
@@ -28,6 +28,7 @@ h1{
     margin-left: 0%;
     margin-bottom: 0%;
 }
+/*A retravailler pour le responsive*/
 IMG{
     display: inline-block;
     margin-left: auto;
@@ -35,10 +36,11 @@ IMG{
     text-align: center;
     position: relative;
 }
+/*La remonter et la fixer en haut, de façon que le menu déroulant se déroule vers le bas*/
 .sidebar {
     margin: 0;
     padding: 0;
-    width: 300px;
+    width: 100%;
     background-color: rgb(143, 194, 143);
     position: relative;
     height: 100%;
@@ -60,36 +62,12 @@ IMG{
 .home{
     background-color: green;
 }
-@media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-    div.content {margin-left: 0;}
-}
-@media screen and (max-width: 700px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-    ul{
-        flex-direction: column;
-    }
-    li{
-        padding-left: 20px;
-    }
-    a{
-        display: block;
-    }
-}
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 6%;
     background-color: green;
     color: white;
     text-align: center;
@@ -108,39 +86,39 @@ a{
 a:hover{
     color: white;
 }
+/*Retravailler le responsive car la navbar sort de la page quand elle est réduite*/
 .navbar{
     display: flex;
     justify-content: flex-end;
     width: 33%;
-
 }  
 .facebook {
     background: #3B5998;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
 .twitter {
     background: #55ACEE;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .google {
     background: #dd4b39;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .linkedin {
     background: #007bb5;
     color: white;
-    padding: 20px;
+    padding: 1%;
 }
   
 .youtube {
     background: #bb0000;
     color: white;
-    padding: 20px;    float: none;
+    padding: 1%; 
 }
 body{
     background-color: rgb(187, 182, 182);
@@ -148,6 +126,7 @@ body{
 table{
     margin: auto;
 }
+/*sidebar*/
 #menu {
     padding:0;
     margin:0;
@@ -173,7 +152,7 @@ table{
 #menu li li {
      max-height:0;
      overflow: hidden;
-     transition: all .5s;
+     transition: all 1s;
      border-radius:0;
      background: #444;
      box-shadow: none;
@@ -211,6 +190,7 @@ table{
 .image img:hover + span {
 	visibility: visible;
 }
+/*bordure des images*/
 a img{
     border: 2px solid white;
     margin: 5px 5px 5px 5px;
@@ -218,9 +198,31 @@ a img{
     display: inline-block;
     box-shadow: 1px 1px 3px 3px #999;
 }
+/*assombrissement des images*/
 a img:hover{
     -webkit-filter: brightness(70%);
 }
-
-
-  
+/*Retravailler le responsive*/
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+}
+@media screen and (max-width: 700px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        padding-left: 20px;
+    }
+    a{
+        display: block;
+    }
+} 
