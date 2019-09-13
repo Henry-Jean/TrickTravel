@@ -9,7 +9,7 @@ article{
 header{
     border: 1px;
     background-color: green;
-    height: 200px;
+    height: 230px;
 }
 h1{
     display: flex;
@@ -20,7 +20,7 @@ h1{
 .entete{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 #logo{
