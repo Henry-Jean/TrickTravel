@@ -62,30 +62,6 @@ IMG{
 .home{
     background-color: green;
 }
-/*Retravailler le responsive*/
-@media screen and (max-width: 700px) {
-    .sidebar {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .sidebar a {float: left;}
-}
-@media screen and (max-width: 700px) {
-    .sidebar a {
-        text-align: center;
-        float: none;
-    }
-    ul{
-        flex-direction: column;
-    }
-    li{
-        padding-left: 20px;
-    }
-    a{
-        display: block;
-    }
-}
 footer{
     position: fixed;
     left: 0;
@@ -226,6 +202,29 @@ a img{
 a img:hover{
     -webkit-filter: brightness(70%);
 }
+/*Retravailler le responsive*/
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+}
+@media screen and (max-width: 700px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        padding-left: 20px;
+    }
+    a{
+        display: block;
+    }
 
 
   
