@@ -1,8 +1,4 @@
-body {
-    padding-left: 20px;
-    background-color: grey;
 
-}
 p{
     border: solid 2px  green;
     text-indent: 2 px;
@@ -56,10 +52,7 @@ img:hover{
     padding: 16px;
     text-decoration: none
 }
-div.content {
-    margin-right: 200px;
-    padding: 1px 16px;
-    height: 1000px;
+
 }
 @media screen and (max-width: 700px) {
     .sidebar {
@@ -107,7 +100,7 @@ li a:hover{
     background-color:grey;
 }
 nav{
-    width:1868px;
+    width:100%;
     background-color: green;
     border-right: solid 2px black;
 }
@@ -125,10 +118,10 @@ background-color: black;
 }
 table {
     background-color: rgb(211, 135, 73);
-    margin-left: 1px;
-    margin-bottom: 25px;
+    margin: auto;
     padding: 10px;
     border-radius: 5px;
+    width: 100%;
 }
 td {
     border: 2px solid black;
