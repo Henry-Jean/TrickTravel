@@ -12,6 +12,7 @@ article{
 header{
     border: solid  2px;
     background-color:green;
+    height: 230px;
 }
 h1{
     display: flex;
@@ -37,7 +38,7 @@ img:hover{
     filter: brightness(60%);
 }
 .sidebar {
-    margin: 20px;
+    margin: 0;
     padding: 0;
     width: 300px;
     background-color: green;
@@ -50,7 +51,8 @@ img:hover{
     display: block;
     color: black;
     padding: 16px;
-    text-decoration: none
+    text-decoration: none;
+    position: relative;
 }
 
 }
@@ -61,13 +63,14 @@ img:hover{
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
 }
-@media screen and (max-width: 500px) {
-sidebar a {
-      text-align: center;
-      float: none;
+@media screen and (max-width: 700px) {
+    .sidebar a{
+        text-align: center;
+        float: none;
+    }
 }
+
 ul{
      flex-direction: column;
  }
@@ -79,11 +82,14 @@ a{
  }
 }
 footer{
-    position: relative;
-    background-color: #DC143C;
-    bottom: 10px;
-    height: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
     text-align: center;
+    background-color: #DC143C;
+   
 }
 .li{
     
@@ -91,15 +97,16 @@ footer{
     font-size: 25px; 
     color: black;
 }
+
 li a{
-    padding: 5px;
-    
-       
+    text-align:center;
 }
 li a:hover{
     background-color:grey;
 }
 nav{
+    display: flex;
+    justify-content: flex-end;
     width:100%;
     background-color: green;
     border-right: solid 2px black;
@@ -116,22 +123,11 @@ ul{
 .name {
 background-color: black;
 }
-table {
-    background-color: rgb(211, 135, 73);
+table, td, th {
+    background-color: lightblue;
     margin: auto;
     padding: 10px;
+    border: 3px solid black
     border-radius: 5px;
     width: 100%;
-}
-td {
-    border: 2px solid black;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-}
-th {
-    border: 2px solid black;
-    margin: 5px;
-    padding: 5px;
-    text-align: center;
 }
